@@ -1,0 +1,36 @@
+body{
+    background-color:#f2f2f2;
+    font-size:3vh;
+    text-align: center;
+}
+.btn{
+    font-size:2vh;
+    /*font-size:2vh;
+    background:#7D8B8C;*/
+    
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.btn:hover {background: rgba(255,255,255,.2);}
+.btn:active {
+ background: white; 
+}
+.video{
+    height:30vh;
+    width:50vh;
+}
+.link{
+    text-decoration:none;
+    color:#222034;
+}
+ftr{
+    text-align: center;
+}
+.pic{
+    text-align: center; 
+}
+

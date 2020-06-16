@@ -1,0 +1,118 @@
+body{
+    background:#7D8B8C;
+    font-size:3vh;
+}
+.container {
+    display: grid;
+    grid-gap: 0.5em;    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10vh minmax(75vh, auto) 10vh;
+    grid-template-areas:
+        "h h h h h h h h h h h h h"
+        "m m c c c c c c c c c c c"
+        "f f f f f f f f f f f f f";
+}
+.header {
+    grid-area: h;
+    background-color:#94A4A4;
+}
+
+.menu {
+    text-align:center;
+    grid-area: m;
+    background-color:#94A4A4;
+}
+.content {
+    grid-area: c;
+    background-color:#94A4A4;
+    min-width:10vh;
+}
+.footer {
+    grid-area: f;
+    background-color:#94A4A4;
+}
+.img1{
+    border-radius:10vh;
+    height:20vh;
+    width:20vh;
+}
+.logo1{
+    margin-left: 2vh;
+    border-radius:10vh;/*Нахрена ему 10px?*/
+    height:10vh;
+    width:auto; 
+    background-color:#94A4A4;
+}
+.logo2{
+    border-radius:10vh;/*Нахрена ему 10px?*/
+    height:8vh;
+    width:8vh; 
+    background-color:#94A4A4;
+}
+.btn{
+    font-size:2vh;
+    background:#7D8B8C;
+}
+
+.table{    
+    word-break: break-all;
+    
+}
+@media (max-width: 700px) {
+body{
+    background:#7D8B8C;
+    font-size:3vh;
+}
+.container {
+    display: grid;
+    grid-gap: 0.5em;    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10vh auto minmax(10vh, auto) 10vh;
+    grid-template-areas:
+        "h h h h h h h h h h h h h"
+        "m m m m m m m m m m m m m"
+        "c c c c c c c c c c c c c"
+        "f f f f f f f f f f f f f";
+}
+.header {
+    grid-area: h;
+    background-color:#94A4A4;
+}
+
+.menu {
+    text-align:center;
+    grid-area: m;
+    background-color:#94A4A4;
+}
+.content {
+    grid-area: c;
+    background-color:#94A4A4;
+    min-width:10vh;
+}
+.footer {
+    grid-area: f;
+    background-color:#94A4A4;
+}
+.img1{
+    border-radius:10vh;
+    height:20vh;
+    width:20vh;
+}
+.logo1{
+    margin-left: 2vh;
+    border-radius:10vh;/*Нахрена ему 10px?*/
+    height:10vh;
+    width:auto; 
+    background-color:#94A4A4;
+}
+.logo2{
+    border-radius:10vh;/*Нахрена ему 10px?*/
+    height:8vh;
+    width:8vh; 
+    background-color:#94A4A4;
+}
+.btn{
+    font-size:2vh;
+    background:#7D8B8C;
+}
+}

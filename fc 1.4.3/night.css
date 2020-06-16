@@ -1,0 +1,210 @@
+body{
+    background:#666;
+    font-size:3vh;
+    color:white;
+}
+.container {
+    display: grid;
+    grid-gap: 0.5em;    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10vh minmax(75vh, auto) 10vh;
+    grid-template-areas:
+        "h h h h h h h h h h h h h"
+        "m m c c c c c c c c c c c"
+        "f f f f f f f f f f f f f";
+}
+.header {
+    grid-area: h;
+    background-color:#303030;
+    color:white;
+}
+.link{
+    text-decoration:none;
+    color:white;
+}
+
+.menu {
+    text-align:center;
+    grid-area: m;
+    background:#303030;
+    color:white;
+
+}
+.content {
+    grid-area: c;
+    background:#303030;
+    color:white;
+}
+.footer {
+    grid-area: f;
+    background:#303030;
+    color:white;
+
+}
+.img1{
+    border-radius:10vh;
+    height:20vh;
+    width:20vh;
+}
+.logo1{
+    margin-left: 2vh;
+    /*border-radius:10vh; Нахрена ему 10px?*/
+    height:10vh;
+    width:auto; 
+    background-color:#303030;
+}
+.logo2{
+    border-radius:10vh;/*Нахрена ему 10px?*/
+    height:8vh;
+    width:8vh; 
+    background-color:#303030;
+}
+.btn{
+    font-size:2vh;
+    background:#303030;
+    font-size:2vh;
+    
+    
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    margin-top:2%;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.small_btn{
+    font-size:2vh;
+    background:#303030;
+    color: white;
+    font-weight: 700;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+table{
+    color:white;
+}
+.imgchat{
+    height:30vh;
+    width:50vh;
+}
+.video{
+    height:30vh;
+    width:50vh;
+}
+
+.okno{
+    background-color:black;
+}
+
+@media (max-width: 700px) {
+body{
+    background:#666;
+    font-size:3vh;
+    color:white;
+}
+.container {
+    display: grid;
+    grid-gap: 0.5em;    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10vh auto minmax(10vh, auto) 10vh;
+    grid-template-areas:
+        "h h h h h h h h h h h h h"
+        "m m m m m m m m m m m m m"
+        "c c c c c c c c c c c c c"
+        "f f f f f f f f f f f f f";
+}
+.header {
+    grid-area: h;
+    background-color:#303030;
+    color:white;
+}
+.link{
+    text-decoration:none;
+    color:white;
+}
+
+.menu {
+    text-align:center;
+    grid-area: m;
+    background:#303030;
+    color:white;
+
+}
+.content {
+    grid-area: c;
+    background:#303030;
+    color:white;
+}
+.footer {
+    grid-area: f;
+    background:#303030;
+    color:white;
+
+}
+.img1{
+    border-radius:10vh;
+    height:20vh;
+    width:20vh;
+}
+.logo1{
+    margin-left: 2vh;
+    /*border-radius:10vh; Нахрена ему 10px?*/
+    height:10vh;
+    width:auto; 
+    background-color:#303030;
+}
+.logo2{
+    border-radius:10vh;/*Нахрена ему 10px?*/
+    height:8vh;
+    width:8vh; 
+    background-color:#303030;
+}
+.btn{
+    font-size:2vh;
+    background:#303030;
+    font-size:2vh;
+    
+    
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    margin-top:2%;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.small_btn{
+    font-size:2vh;
+    background:#303030;
+    color: white;
+    font-weight: 700;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+table{
+    color:white;
+}
+.imgchat{
+    height:30vh;
+    width:50vh;
+}
+.okno{
+    background-color:black;
+}
+.video{
+    height:30vh;
+    width:50vh;
+}
+
+}

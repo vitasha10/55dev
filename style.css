@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+}
+ul li{
+    display:block;
+    float:left;
+}
+nav{
+    width:70vw;
+    margin:0 auto;
+}
+nav:before{
+    content:'';
+    display:block;
+    background:#fff;
+    height:10vh;
+    width:100%;
+    background-color:#000000;
+    position:absolute;
+    left:0;
+    z-index:-1;
+}
+ul{
+    list-style:none;
+    height:10vh;
+}
+ul li a{
+    color:#fff;
+    display:block;
+    height:10vh;
+    padding:0 3vh;
+}
+
